@@ -42,7 +42,7 @@ local function CreateInterfaceOptionsEntry()
 	txt:SetPoint("TOPLEFT", 16, -16);
 	frame.titleTextField = txt;
 	-- open button...
-	local btn = CreateFrame("Button", nil, frame, "OptionsButtonTemplate");
+	local btn = CreateFrame("Button", nil, frame, "UIPanelButtonTemplate");
 	btn:SetText("Open Options");
 	btn:SetWidth(125);
 	btn:SetHeight(25);
